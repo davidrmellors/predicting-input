@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: The method adds a new key-value pair with the same key
+  - text: 'The method ignores the update '
+  - text: 'The method throws an error '
+  - text: The method updates the value of the existing key
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/36308#comment
+status: Solved
+record: -1
+local_check: false

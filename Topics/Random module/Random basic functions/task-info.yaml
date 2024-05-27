@@ -1,0 +1,29 @@
+type: matching
+captions:
+  - "random.uniform(a, b)"
+  - "random.randint(a, b)"
+  - random.choice(seq)
+  - "random.randrange(a, b, c)"
+  - "random.shuffle(seq, [random])"
+  - "random.sample(population, k)"
+options:
+  - Returns a pseudo-random element from any sequence.
+  - Returns a  pseudo-random integer number in the range between a and b.
+  - Returns a pseudo-random k length list from a population sequence.
+  - Shuffles the sequence.
+  - Returns a  pseudo-random number from the range between a and b with a step c.
+  - Returns a pseudo-random float number in the range between a and b.
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7002#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5

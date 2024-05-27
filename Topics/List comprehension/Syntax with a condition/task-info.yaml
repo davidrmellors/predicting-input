@@ -1,0 +1,26 @@
+type: matching
+captions:
+  - "new_list = [x for x in old_list if x % 2 == 0]"
+  - "new_list = [x for x in old_list if x &gt;= 8]"
+  - "new_list = [x*2 for x in old_list if x &lt; 13]"
+  - "new_list = [x*2 for x in old_list if x % 2 == 1]"
+  - "new_list = [x*2 for x in old_list]"
+options:
+  - "[2, 2, 4, 6, 10, 16]"
+  - "[8, 13, 21, 34, 55]"
+  - "[2, 2, 6, 10, 26, 42, 110]"
+  - "[2, 2, 4, 6, 10, 16, 26, 42, 68, 110]"
+  - "[2, 8, 34]"
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6317#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
